@@ -2,6 +2,14 @@
 **/Task1/obj
 **/Task1/Migrations
 
+**/Task2/bin
+**/Task2/obj
+**/Task2/Migrations
+/Task2/nnnn.xproj.user
+/Task2/nnnn.sln
+/Task2/nnnn.xproj
+/Task2/project.lock.json
+
 **/Task3/bin
 **/Task3/obj
 **/Task3/Migrations
