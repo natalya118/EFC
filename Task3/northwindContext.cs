@@ -2,14 +2,14 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace nnnn
+namespace Task3
 {
     public partial class northwindContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-            optionsBuilder.UseSqlite(@"DataSource=C:\Users\Natalya\Documents\Visual Studio 2015\Projects\nnnn\northwind.db");
+            optionsBuilder.UseSqlite(@"DataSource=\northwind.db");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

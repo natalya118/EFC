@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace nnnn
+namespace Task3
 {
     public partial class Customers
     {

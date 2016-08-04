@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Task3;
 
 namespace nnnn
 {
@@ -11,8 +12,8 @@ namespace nnnn
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("hellololo");
-            using (northwindContext db = new northwindContext())
+            Console.WriteLine("hello :)");
+            using (Task3.northwindContext db = new northwindContext())
             {
                 var task1 = db.Customers
                                .Where(c => c.ContactName.StartsWith("D"));
