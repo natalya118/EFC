@@ -29,6 +29,16 @@ namespace Task2._2
 
                 db.Blogs.Add(blog);
 		db.SaveChanges();
+		Console.WriteLine("Blogs after adding");
+		foreach (var b in db.Blogs)
+                {
+                    Console.WriteLine(" - {0}", b.Url);
+                }
+
+		Console.WriteLine("Blogs after deleting the first item");
+		var blogRem = db.Blogs.First();
+                db.Blogs.Remove(blogRem);
+		db.SaveChanges();
                 foreach (var b in db.Blogs)
                 {
                     Console.WriteLine(" - {0}", b.Url);
