@@ -8,7 +8,7 @@ using PagesApp;
 namespace Task2.Migrations
 {
     [DbContext(typeof(Model.BloggingContext))]
-    [Migration("20160802201909_FirstMigration")]
+    [Migration("20160805135116_FirstMigration")]
     partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,16 +1,13 @@
 **/Task1/bin
 **/Task1/obj
 
-**/Task2/bin
 **/Task2/obj
 /Task2/Task2.xproj.user
 /Task2/Task2.sln
 /Task2/Task2.xproj
 /Task2/project.lock.json
 
-**/Task3/bin
 **/Task3/obj
-**/Task3/Migrations
 **/Task3/Properties
 /Task3/nnnn.xproj.user
 /Task3/nnnn.sln
